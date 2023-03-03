@@ -1,0 +1,12 @@
+{
+  "build": {
+    "src": "src/main.py",
+    "use": "@versal/python"
+  },
+  "route": [
+    {
+      "src": "/(*)",
+      "dest": "src/main.py"
+    }
+  ]
+}
